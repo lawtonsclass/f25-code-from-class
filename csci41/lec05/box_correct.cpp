@@ -77,6 +77,8 @@ int main() {
   b3.setVal(44);
   cout << b1.getVal() << " " << b2.getVal() << " " << b3.getVal() << endl;
 
+  b3 = b3;
+
   // destructors for all Boxes get called right before they get
   // reclaimed
   return 0;
