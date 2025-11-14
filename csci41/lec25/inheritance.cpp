@@ -78,6 +78,8 @@ int main() {
   Cat lonzo("Alonzo", 5, "tuna"); 
   lonzo.talk();
 
+  cout << endl;
+
   // I can make a vector of Animal pointers, and put pointers to
   // derived classes inside!
   // This is because every Cat/Dog *is an* Animal!
